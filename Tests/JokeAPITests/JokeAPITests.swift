@@ -7,7 +7,7 @@
 import JokeAPI
 import XCTest
 
-@available(iOS 15.0, *)
+@available(iOS 15.0, macOS 12.0, *)
 final class JokeAPITests: XCTestCase {
     
     let session: URLSession = {

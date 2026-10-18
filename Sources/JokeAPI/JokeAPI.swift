@@ -6,7 +6,7 @@
 
 import Foundation
 
-@available(iOS 15.0, *)
+@available(iOS 15.0, macOS 12.0, *)
 public final class JokeAPI: Sendable {
     private let url = URL(string: "https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,racist,sexist,explicit")!
     private let urlSession: URLSession
